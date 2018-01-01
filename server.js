@@ -6,7 +6,7 @@
  *
  * Name: Lewis Kim Student ID: 115935157 Date: Dec 31, 2017
  *
- * Online (Heroku) Link: ________________________________________________________
+ * Online (Heroku) Link: https://fierce-crag-79810.herokuapp.com/
  *
  ********************************************************************************/
 
