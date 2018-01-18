@@ -39,7 +39,7 @@ function ensureLogin(req, res, next) {
     }
 }
 
-var HTTP_PORT = process.env.PORT || 8080;
+var HTTP_PORT = process.env.PORT || 5000;
 
 function onHTTPStart() {
     console.log("Express http server listening on " + HTTP_PORT);
