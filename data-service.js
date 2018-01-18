@@ -3,8 +3,8 @@ var departments = [];
 var empCount = 0;
 const fs = require('fs');
 const Sequelize = require('sequelize');
-var sequelize = new Sequelize('dfpek6d832ca9e', 'hnuaeapiyszvfs', '43697fc46a3995552d90ee3b7229067364126909593914e7d7103d5391216f5c', {
-    host: 'ec2-107-22-162-82.compute-1.amazonaws.com',
+var sequelize = new Sequelize('d86638m7un4fp8', 'iqoqvroyjofpeo', '40b47522196f728ed150c372858af052e0ee3ee1a2defe6ade1595e6c6d3046f', {
+    host: 'ec2-107-21-95-70.compute-1.amazonaws.com',
     dialect: 'postgres',
     port: 5432,
     dialectOptions: {

@@ -22,10 +22,12 @@ module.exports.initialize = function() {
         let db = mongoose.createConnection("mongodb://lewis517:bokolong123@ds137256.mlab.com:37256/web322_a6");
 
         db.on('error', (err) => {
+
             reject(err);
         });
         db.once('open', () => {
             Comment = db.model("comments", commentSchema);
+
             resolve();
         });
     });
